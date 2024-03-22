@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интерфейс JSON Server CRUD</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <h1>Посты</h1>
+
+    <form id="createForm">
+        <label for="title">Заголовок:</label>
+        <input type="text" id="title" required>
+        <label for="content">Содержание:</label>
+        <textarea id="content" required></textarea>
+        <button type="submit">Создать пост</button>
+    </form>
+
+    <ul id="postList"></ul>
+
+    <script type="module" src="./js/main.js"></script>
+</body>
+
+</html>
